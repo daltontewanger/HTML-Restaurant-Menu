@@ -1,86 +1,124 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
-    background-color: beige;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #faf7f7;
+  text-align: center;
 }
 
 h1,
 h2 {
-    color: darkred;
+  color: darkred;
 }
 
-h3, 
-p,
+h3,
 li {
-    color: green;
+  color: green;
 }
 
 img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 main {
-    margin: 0 20%;
+  margin: 0 20%;
 }
 
 nav {
-    background-color: beige;
-    padding: 10px;
+  background-color: #f7232a;
+  padding: 10px;
 }
 
 nav ul {
-    list-style-type: none;
-    text-align: center;
+  list-style-type: none;
+  text-align: center;
 }
 
 nav li {
-    display: inline;
+  display: inline;
 }
 
 nav a {
-    text-decoration: none;
-    font-size: 1.6em;
-    color: green;
-    margin-right: 25px;
+  text-decoration: none;
+  font-size: 1.6em;
+  color: #3c3c3c;
+  margin-right: 25px;
 }
 
 nav a:hover {
-    color: darkred;
+  color: #f6ead4;
+}
+
+.about-us ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.about-us li {
+  margin: 3px;
 }
 
 #banner {
-    width: 100%;
-    height: auto;
-    background-color: white;
+  width: 100%;
+  height: auto;
+  background-color: white;
 }
 
 #banner img {
-    width: 60%;
-    height: auto;
+  width: 60%;
+  height: auto;
 }
 
 .service {
-    display: inline-block;
-    background-color: white;
-    border: 5px solid green;
-    border-radius: 5px;
-    color: darkred;
-    font-size: 2em;
-    padding: 20px;
-    margin: 10px;
+  display: inline-block;
+  background-color: white;
+  border: 5px solid green;
+  border-radius: 5px;
+  color: darkred;
+  font-size: 2em;
+  padding: 20px;
+  margin: 10px;
 }
 
 table {
-    border: 3px solid black;
-    width: 100%;
+  border: 3px solid black;
+  width: 100%;
 }
-  
+
 td,
 th {
-    border: 1px solid black;
-    padding: 5px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+td:nth-child(1) {
+  width: 75%;
+}
+
+td:nth-child(2) {
+  width: 25%;
+}
+
+.current-page {
+  color: white;
+}
+
+#holiday {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(4, 139, 79, 0.75);
+}
+
+footer {
+  width: 100%;
+  padding: 10px;
+  background-color: #f7232a;
+  margin-top: 5px;
+}
+
+footer p {
+  color: white;
 }
